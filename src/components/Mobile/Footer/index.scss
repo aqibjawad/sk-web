@@ -1,0 +1,105 @@
+#footer {
+    .footer {
+      box-shadow: 1px 1px 5px #d3d2d2;
+      background-color: #fff;
+      text-align: center;
+      padding: 5px 10px;
+      bottom: 0 !important;
+      position: fixed;
+      width: 100%;
+      margin-top: 2rem;
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 0;
+      }
+      .footer-icon {
+        font-size: 20px;
+      }
+      .add {
+        position: relative;
+        margin-top: -25px;
+        padding: 6px 8px 6px 8px;
+        align-items: center;
+        align-content: center;
+        border-radius: 20px;
+        border: 3px solid var(--red);
+      }
+    }
+  }
+
+  #right-sidebar {
+    p {
+      font-size: 15px;
+    }
+    /* Position and sizing of burger button */
+    .bm-burger-button {
+      position: absolute;
+      width: 25px;
+      height: 17px;
+      left: 8px;
+      top: 25px;
+      color: transparent;
+    }
+  
+    /* Color/shape of burger icon bars */
+    .bm-burger-bars {
+      background-color: transparent!important;
+    }
+  
+    /* Position and sizing of clickable cross button */
+    .bm-cross-button {
+      height: 24px;
+      width: 24px;
+      margin-top: -120px;
+      margin-right: 10px;
+    }
+  
+    /* Color/shape of close button cross */
+    .bm-cross {
+      background: white!important;
+    }
+  
+    /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+    .bm-menu-wrap {
+      position: fixed;
+      width: 90% !important;
+      margin-top: -264px;
+    }
+  
+    /* General sidebar styles */
+    .bm-menu {
+      padding: 0em 1.5em 0;
+      font-size: 1.15em;
+      margin-left: -20px;
+    }
+  
+    /* Morph shape necessary with bubble or elastic */
+    .bm-morph-shape {
+      fill: #373a47;
+    }
+  
+    /* Wrapper for item list */
+    .bm-item-list {
+      color: #b8b7ad;
+      padding: 0.8em;
+    }
+  
+    /* Individual item */
+    .bm-item {
+      display: inline-block;
+    }
+  
+    /* Styling of overlay */
+    .bm-overlay {
+      background: rgba(0, 0, 0, 0.3);
+      height: 0%!important;
+    }
+  }

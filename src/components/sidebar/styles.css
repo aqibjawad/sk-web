@@ -1,0 +1,41 @@
+.menu-item {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    /* height: 60px; */
+    color: #303341;
+    width: 100%;
+  }
+
+  .hidden-elements::-webkit-scrollbar {
+    -webkit-appearance: none;
+    background: rgba(0, 0, 0, 0.04);
+    border-bottom-right-radius: 0px;
+  }
+  
+  .hidden-elements::-webkit-scrollbar:vertical {
+    width: 10px;
+  }
+  
+  .hidden-elements::-webkit-scrollbar:horizontal {
+    height: 3px;
+  }
+  
+  .hidden-elements::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 1px solid #ccc; /* should match background, can't be transparent */
+    background-color: #ececec;
+  }
+  .active-list{
+    /* background-color: #131921; */
+    background-color: #7AC1C3;
+    padding:5px 10px;
+    
+  }
+  .active-list p {
+    color:white;
+  }
+
+  .active-list div {
+    color:white;
+  }

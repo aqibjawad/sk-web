@@ -1,0 +1,54 @@
+/* index.scss */
+
+.mobile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #000000; /* Adjust the background color as needed */
+  }
+  
+  .logo-container {
+    margin-bottom: 10px;
+  }
+  
+  .logo {
+    max-width: 100%; /* Ensure the logo doesn't exceed its container */
+    height: 50px;
+  }
+  
+  .search-form {
+    width: 100%;
+  }
+  
+  .search {
+    position: relative;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .search-bar:hover{
+    color: black;
+    background-color: lightgray;
+  }
+
+  /* Placeholder color */
+.search-bar::placeholder {
+    color: gray;
+    font-weight: bold;
+}
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #555;
+    cursor: pointer;
+  }
+  

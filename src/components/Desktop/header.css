@@ -1,0 +1,189 @@
+/* Dropdown styling */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-btn {
+    background-color: #262626;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 550px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-btn:hover {
+    background-color: red
+        /* Your desired hover color */
+    ;
+    color: white
+        /* Your desired text color on hover */
+    ;
+}
+
+.multilevel-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.multilevel-dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.multilevel-dropdown:hover .multilevel-dropdown-content {
+    display: block;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+}
+
+.category {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.category:hover {
+    background-color: #f0f0f0;
+}
+
+.category.active {
+    background-color: #e0e0e0;
+}
+
+.subcategories {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+
+.subcategory {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.subcategory:hover {
+    background-color: #f0f0f0;
+}
+
+.subcategory.active {
+    background-color: #e0e0e0;
+}
+
+/* Custom styles for Cascader */
+.custom-cascader .ant-cascader-picker {
+    border: none;
+    /* Remove the border */
+}
+
+.custom-cascader .ant-cascader-picker-label {
+    margin-right: 8px;
+    /* Add margin between text and the arrow icon */
+}
+
+.custom-cascader .ant-cascader-picker-arrow {
+    display: none;
+    /* Hide the arrow icon */
+}
+
+
+/* ------------------ Multi level CSS Dropdown ------------------ */
+/* YourComponent.css */
+
+/* YourComponent.css */
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav {
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .menu > li {
+    position: relative;
+    margin: 0 10px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    display: block;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    z-index: 1;
+    margin-top: 5px; 
+    width: 200px;
+    line-height: 10px;
+
+  }
+  
+  .menu li:hover > .submenu {
+    display: block;
+  }
+  
+  .submenu li {
+    padding: 10px;
+    position: relative;
+  }
+  
+  .submenu li:hover {
+    background-color: #555;
+  }
+  
+  .submenu .submenu {
+    left: 100%;
+    top: 0;
+    margin-top: -1px;
+  }
+  
+  .submenu .submenu li {
+    clear: both;
+  }
+  

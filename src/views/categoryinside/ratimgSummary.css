@@ -1,0 +1,162 @@
+/* Rating Summary Container */
+.rating-summary {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+/* Average Rating Section */
+.average-rating {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rating-number {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.rating-max {
+    font-size: 20px;
+    color: #666;
+}
+
+.total-reviews {
+    color: #666;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Star Rating */
+.star-rating {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin: 10px 0;
+}
+
+.star {
+    color: #ffd700;  /* Golden yellow for stars */
+    width: 24px;
+    height: 24px;
+}
+
+/* Rating Bars Section */
+.rating-bars {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.rating-bar-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.rating-bar-item:hover {
+    background-color: #f5f5f5;
+}
+
+.rating-bar-item.selected {
+    background-color: #f0f0f0;
+}
+
+.rating-label {
+    display: flex;
+    align-items: center;
+    width: 60px;
+    margin-right: 10px;
+}
+
+.rating-label span {
+    margin-right: 4px;
+}
+
+.rating-label .star-small {
+    width: 16px;
+    height: 16px;
+    color: #ffd700;
+}
+
+.progress-bar {
+    flex-grow: 1;
+    height: 8px;
+    background-color: #eee;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: #ffd700;
+    border-radius: 4px;
+    transition: width 0.3s ease;
+}
+
+.rating-count {
+    min-width: 45px;
+    text-align: right;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .rating-summary {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .average-rating {
+        width: 200px;
+        margin-right: 40px;
+        margin-bottom: 0;
+    }
+
+    .rating-bars {
+        flex-grow: 1;
+    }
+}
+
+/* Animation for bar filling */
+.progress-fill {
+    animation: fillBar 1s ease-out;
+}
+
+@keyframes fillBar {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* Hover effects */
+.rating-bar-item:hover .progress-fill {
+    background-color: #ffcd00;
+}
+
+.rating-bar-item:hover .rating-count {
+    color: #333;
+}
+
+/* Selected state */
+.rating-bar-item.selected .progress-fill {
+    background-color: #ffc107;
+}
+
+.rating-bar-item.selected .rating-count {
+    font-weight: bold;
+    color: #333;
+}

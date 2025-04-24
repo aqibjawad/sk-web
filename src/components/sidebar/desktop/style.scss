@@ -1,0 +1,108 @@
+.bm-item {
+  display: inline-block;
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: white;
+}
+
+.bm-burger-button {
+  position: absolute;
+  width: 30px; 
+  height: 20px;
+  left: 20px;
+  top: 40px; 
+  margin-left: 0.5rem;
+}
+.bm-burger-bars {
+  background: white;
+}
+.bm-cross-button {
+  margin-top: -80px;
+
+  height: 24px;
+  width: 24px;
+}
+.bm-cross {
+  background: #bdc3c7;
+}
+.bm-overlay {
+  top: 0px;
+  left: 0px;
+}
+
+.bm-menu {
+  margin-top: -100px !important;
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+.bm-morph-shape {
+  fill: #373a47;
+}
+.bm-item-list {
+  color: #b8b7ad;
+}
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+.menu-profile-tag {
+  padding: 10px;
+  border: 1px solid #ecebeb;
+  border-radius: 100%;
+  text-decoration: none;
+  margin-right: 10px;
+  background-color: #ecebeb;
+}
+.menu-profile-tag svg {
+  color: #911f27;
+  font-size: 18px;
+}
+.menu-profile-tag a {
+  text-decoration: none;
+  color: white;
+}
+.membership-btn button {
+  padding: 10px;
+  border: 1px solid rgb(253, 130, 86);
+  color: rgb(253, 130, 86);
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.business-btn button {
+  padding: 10px;
+  border: 1px solid rgb(164, 199, 250);
+  color: rgb(164, 199, 250);
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.sidebar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
+
+  div {
+
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb:vertical {
+      margin: 5px;
+      background-color: #999;
+      -webkit-border-radius: 5px;
+    }
+
+    &::-webkit-scrollbar-button:start:decrement,
+    &::-webkit-scrollbar-button:end:increment {
+      height: 5px;
+      display: block;
+    }
+}

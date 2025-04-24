@@ -1,0 +1,115 @@
+.review-div {
+    color: red;
+    font-weight: 500;
+    background-color: #fff;
+  }
+  .rating {
+    button {
+      border: none;
+      background-color: #fff;
+    }
+    .rating-star {
+      font-size: 32px;
+      &:hover {
+        color: rgb(255, 109, 109) !important;
+      }
+    }
+    .selected-star {
+      color: rgb(255, 109, 109) !important;
+    }
+  }
+  .rating-category {
+    h3 {
+      font-size: 22px;
+      font-weight: 500;
+    }
+  }
+  .review-title {
+    font-size: 28px;
+  }
+  .customer-review {
+    .publish-review {
+      p {
+        align-items: center !important;
+        padding-top: 8px;
+        padding-left: 11px;
+      }
+      height: 40px;
+      width: 40px;
+      background-color: skyblue;
+      border-radius: 25px;
+    }
+    span{
+      font-size: 20px;
+    }
+    .review-content{
+      h3{
+        font-size: 24px!important;
+      }
+      p{
+        width: 90%;
+        font-size: 20px;
+      }
+    }
+    .invented{
+      padding: 0px 10px;
+        font-size: 20px;
+      
+    }
+  }
+  
+  // @media only screen and (max-width: 600px) {
+  //   .rating {
+  //     button {
+  //       border: none;
+  //       background-color: #fff;
+  //     }
+  //     .rating-star {
+  //       font-size: 16px;
+  //       &:hover {
+  //         color: rgb(255, 109, 109) !important;
+  //       }
+  //     }
+      
+  //   }
+  //   .rating-category {
+  //     h3 {
+  //       font-size: 16px!important;
+  //       font-weight: 600;
+  //     }
+  //   }
+  //   .review-title {
+  //     font-size: 18px;
+  //   }
+  //   .customer-review {
+  //     .publish-review {
+  //       p {
+  //         align-items: center !important;
+  //         padding-top: 7px;
+  //         padding-left: 11px;
+  //       }
+  //       height: 40px;
+  //       width: 40px;
+  //       background-color: skyblue;
+  //       border-radius: 25px;
+  //     }
+  //     span{
+  //       font-size: 14px;
+  //     }
+  //     .review-content{
+  //       h3{
+  //         font-size: 18px!important;
+  //         font-weight: 600;
+  //       }
+  //       p{
+  //         width: 90%;
+  //         font-size: 14px;
+  //       }
+  //     }
+  //     .invented{
+  //       padding: 0px 2px;
+  //         font-size: 12px;
+        
+  //     }
+  //   }
+  // }

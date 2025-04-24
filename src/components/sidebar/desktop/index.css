@@ -1,0 +1,54 @@
+.sidebar{
+    height: -30px;
+    background: linear-gradient(90deg, #cfdaec 59%, rgba(255,255,255,1) 90%);
+    padding-left: 1rem;
+    margin-top: -70px;
+  }
+  
+  .sidebar .menu-item p{
+    color: white;
+  }
+  
+  .sidebar .sub-menu-item p{
+    color: white;
+  }
+  
+  .user-menubar .menu-item {
+    display: flex;
+    text-align: center;
+    padding-top: 25px;
+    height: 60px;
+    color: white;
+    width: 100%;
+  }
+  
+  .user-menubar .sub-menu-item {
+    display: flex;
+    text-align: center;
+    height: 60px;
+    color: white;
+    width: 100%;
+  }
+  
+  .user-menubar .sub-menu-item p {
+    display: flex;
+    text-align: center;
+    height: 60px;
+    color: white;
+    margin-left: 10px;
+  }
+  
+  .user-menubar .menu-item svg {
+    font-size: 24px;
+  }
+  
+  .user-menubar .menu-item p {
+    font-size: 18px;
+    margin-left: 25px;
+  }
+  
+  .user-menubar .menu-item.active {
+    background-color: white;
+    color: #fff !important;
+    width: 100%;
+  }

@@ -1,0 +1,231 @@
+:root{
+  --primary-color: red;
+  --secondary-color: red;
+}
+
+.app{
+  position: relative;
+  font-family: 'Geologica', sans-serif;
+  background-color:#F5F5F5;
+}
+
+/* .btn-color{
+  background-color: #333333;
+} */
+
+/* .shopheader{
+  position: sticky;
+  top: 0;
+  left: 0;
+} */
+
+
+.stat .nav-item .nav-link {
+  background-color: rgba(248, 241, 241, 0.925);
+  padding: 15px 30px;
+  border: 1px solid rgb(230, 225, 225);
+  border-radius: 0;
+}
+.stat .nav-item .nav-link a {
+  color: black;
+}
+
+.latest-mobiles .card-1 .card-header {
+  background-color: #911f27;
+  color: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.latest-mobiles .card-2 .card-header {
+  background-color: #911f27;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* box-shadow: 0 0 10px rgba(0, 0, 0, 0.30); */
+.btn-custom {
+  font-size: 14px !important;
+  padding: 0.5rem 2rem;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #233D7B !important;
+  border: none !important;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+/* .btn-custom:hover {
+  text-decoration: none;
+} */
+
+.btn-custom:active {
+  box-shadow: none !important;
+  transform: translateY(4px) !important;
+}
+
+/* .user-menubar .menu-item:hover {
+  background-color: #efefef;
+  text-decoration: none;
+  width: 100%;
+} */
+.user-menubar .menu-item svg {
+  font-size: 24px;
+  margin-top: -5px;
+}
+.user-menubar .menu-item p {
+  font-size: 12px;
+  margin-left: 30px;
+}
+.user-menubar .menu-item.active {
+  background-color: #303341;
+  color: #fff !important;
+  width: 100%;
+}
+
+.user-menubar {
+  /* position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 90px;
+  margin: 0 auto;
+  z-index: 1; */
+  flex-shrink: 0;
+  overflow: scroll;
+  width: 300px;
+  border-right: 1px solid #e1e1e1;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 0px);
+  padding-top: 1rem;
+  align-items: center;
+  justify-content: stretch;
+  transition: 0.4s;
+  position: sticky;
+  left: 0;
+  top: -20px;
+  padding-top: 0;
+}
+.user-menubar li {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+.user-menubar .menu-item {
+  display: flex;
+  text-align: center;
+  padding: 25px;
+  height: 60px;
+  color: #303341;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .header-1 .hidden-element {
+    display: none;
+  }
+  .hide {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .reviews-input {
+    width: 100% !important;
+  }
+  .hidden-element {
+    display: none !important;
+  }
+  .mainpage-header .sign-up-btn {
+    width: 15% !important;
+  }
+  .buttonStyle {
+    width: 100%;
+  }
+  .profile-report {
+    width: 100% !important;
+  }
+
+  .profile {
+    width: 100% !important;
+  }
+  .profile button {
+    text-transform: uppercase;
+    padding: 10px 40px;
+    width: 30%;
+  }
+}
+
+.user-menubar .menu-item {
+  display: flex;
+  text-align: center;
+  padding: 25px;
+  height: 60px;
+  color: #303341;
+  width: 100%;
+}
+
+.user-menubar .menu-item svg {
+  font-size: 24px;
+  margin-top: -5px;
+}
+.user-menubar .menu-item p {
+  font-size: 12px;
+  margin-left: 30px;
+}
+.user-menubar .menu-item.active {
+  background-color: #303341;
+  width: 100%;
+}
+
+.control__btn {
+  background-color: #EFF0F5;
+  color: rgb(16, 0, 54);
+  border: 1px solid rgb(54, 0, 18);
+  cursor: pointer;
+}
+
+.control__btn_-ve{
+  background-color: #EFF0F5;
+  color: rgb(16, 0, 54);
+  border: 1px solid rgb(54, 0, 18);
+  cursor: pointer;
+}
+
+.left-div{
+  background-color: #F8F9FA;
+}
+
+.right-div{
+  background-color: #F8F9FA;
+}
+
+.account-form a {
+  text-decoration: none;
+  color: rgb(0, 119, 255);
+}
+.account-form a:hover {
+  color: rgb(252, 102, 102);
+  text-decoration: none;
+}
+.account-form .save-button {
+  border: 2px solid grey;
+  border-radius: 40px;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+.account-form .save-button:hover {
+  background-color: rgba(145, 20, 39);
+  transition: ease-in-out;
+  transition: 0.4s;
+  border: 2px solid rgba(145, 20, 39);
+  color: #fff;
+}
+.account-form .upgrade-payment button {
+  font-size: 13px;
+}

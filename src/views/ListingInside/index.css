@@ -1,0 +1,20 @@
+/* CenteredColumns.css */
+.centered-columns-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* You can change this based on your design */
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  .left-column {
+    width: 50%;
+    max-width: 400px; /* Adjust the max-width as needed */
+    padding: 20px;
+  }
+  
+  .right-column {
+    width: 50%;
+    max-width: 600px; /* Adjust the max-width as needed */
+    padding: 20px;
+  }
+  

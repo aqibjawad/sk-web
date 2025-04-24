@@ -1,0 +1,253 @@
+
+.photos img{
+  width:15%;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+}
+
+.splide__arrow{
+  background-color: red;
+} 
+
+/* @media (min-width: 300px) {
+  .card {
+    width: 45%;
+    margin-left: 10px;
+  }
+} */
+
+
+/* CardStyles.css */
+
+.CardContainer {
+  text-align: center;
+  width: 20%; /* Set the width to 20% for each card to fit 5 cards in a row */
+  margin: 0 10px; /* Add margin between cards */
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 12px; 
+  overflow: hidden;
+  transition: transform 0.3s; /* Optional: Add a transition effect on hover */
+}
+
+.CardImage {
+  width: 100%;
+  height: 100px; /* Set a fixed height for the images inside each card */
+  object-fit: contain;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+.discount-overlay {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff0000; /* Customize background color */
+  color: #ffffff; /* Customize text color */
+  padding: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* ------------------------------ Home SHop CSS ------------------------------------ */
+
+.category-title {
+  font-size: 30px; /* Adjust the font size as needed */
+  margin-bottom: 10px;
+  margin-left: 20px;
+  position: relative;
+  display: inline-block; /* Ensures the lines are on the same line as the text */
+  margin-top: 30px;
+}
+
+.container {
+  display: flex;
+  align-items: center; 
+}
+
+.line {
+  flex-grow: 1;
+  height: 1px; /* Height of the line */
+  background-color: black; /* Color of the line */
+  margin-right: 10px; /* Margin between line and heading */
+}
+
+.circular-image-container {
+  width: 200px; /* Adjust the size of the container */
+  height: 200px; /* Adjust the size of the container */
+  overflow: hidden;
+  position: relative;
+}
+
+.circular-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid #fff; /* You can adjust the border color and thickness */
+}
+
+.circular-image-container:before {
+  content: "";
+  display: block;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+
+/* --------------------------------- Home Shop CSS end --------------------------- */
+
+/* -------------------------- Home Companies CSS --------------------------------- */
+
+
+.companies-title {
+  font-size: 30px; /* Adjust the font size as needed */
+  margin-bottom: 10px;
+  margin-left: 20px;
+  position: relative;
+  display: inline-block; /* Ensures the lines are on the same line as the text */
+  margin-top: 30px;
+}
+
+.companies-text {
+  position: relative;
+}
+
+/* -------------------------- Home Companies CSS End --------------------------------- */
+
+/* ---------------------------- Home Upcoming CSS ------------------------------------- */
+
+.upcoming-title {
+  font-size: 30px; /* Adjust the font size as needed */
+  margin-bottom: 10px;
+  margin-left: 20px;
+  position: relative;
+  display: inline-block; /* Ensures the lines are on the same line as the text */
+  margin-top: 30px;
+}
+
+.upcoming-text {
+  position: relative;
+}
+/* ---------------------------- Home Upcoming CSS End ------------------------------------- */
+
+/* ----------------------- Code for Home Shop crousal ---------------------- */
+/* Styles for the pagination dots */
+.pagination-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px; /* Adjust the margin as needed */
+}
+
+/* Styles for individual pagination dot */
+.Dot {
+  background-color: #bbb; /* Inactive dot color */
+  width: 10px; /* Dot width */
+  height: 10px; /* Dot height */
+  margin: 0 5px; /* Margin between dots */
+  border-radius: 50%; /* Make it round */
+  cursor: pointer;
+}
+
+/* Styles for active pagination dot */
+.Dot.active {
+  background-color: #3498db; /* Active dot color */
+}
+
+/* ------------------------ Code for Home Shop Vendor ------------------- */
+
+/* Example styles for the main image */
+.main-image {
+  max-width: 100%; /* Set a maximum width to maintain responsiveness */
+  height: auto;
+  max-height: 50px; /* Set a maximum height to limit the image size */
+}
+
+/* Example styles for the small images row */
+.small-images-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+/* Example styles for each small image */
+.small-image {
+  width: 50px; /* Adjust width as needed */
+  height: auto;
+  margin-right: 10px; /* Adjust margin between small images */
+}
+
+
+/* --------------- Custom Line CSS --------------------------- */
+.custom-hr {
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+
+
+
+.featured-title {
+  font-size: 30px; /* Adjust the font size as needed */
+  margin-bottom: 10px;
+  margin-left: 20px;
+  position: relative;
+  display: inline-block; /* Ensures the lines are on the same line as the text */
+  margin-top: 30px;
+}
+
+.featured-text {
+  position: relative;
+}
+
+.slider-item {
+  position: relative;
+}
+
+.home-shop-image {
+  width: 100%; /* Ensure the image takes the full width of its container */
+}
+
+.text-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background */
+  padding: 10px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.text-container h3 {
+  color: white; /* Text color */
+  margin: 0; /* Remove default margin */
+  font-size: 20px; /* Adjust font size as needed */
+}
+
+
+
+/* Add these styles to your existing CSS file or create a new one */
+
+
+.shortened-title .full-title {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: black;
+  padding: 5px;
+  border: 1px solid #ccc;
+  display: none;
+  z-index: 2;
+}
+
+.shortened-title:hover .full-title {
+  display: block;
+}
